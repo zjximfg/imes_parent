@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/imes_common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/imes_common_model" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/imes_company" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/imes_device" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/imes_eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/imes_influx" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/imes_mqtt_client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/imes_project" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/imes_system" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/imes_warehouse" charset="UTF-8" />
+  </component>
+</project>
