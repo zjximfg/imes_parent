@@ -22,4 +22,5 @@ public class Accessory {
     private String parentObjectId;
     @Transient
     private String status = STATUS_DONE;
+
 }

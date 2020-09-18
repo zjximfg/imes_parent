@@ -90,7 +90,7 @@ public class RoleServiceImpl implements RoleService {
         List<RolePermission> rolePermissionList = getRolePermissionByRoleId(roleId);
         List<String> permissionIdsOld = new ArrayList<>();
         for (RolePermission rolePermission : rolePermissionList) {
-            permissionIdsOld.add(rolePermission.getRoleId());
+            permissionIdsOld.add(rolePermission.getPermissionId());
         }
         // old 差集 new 删除
         Set<String> deleteSet = SetUtils.getDiffSet(permissionIdsOld, permissionIds);

@@ -54,7 +54,7 @@ public class MaterialSupplierServiceImpl implements MaterialSupplierService {
     public void updateMaterialSupplierById(MaterialSupplier materialSupplier) {
         MaterialSupplier find = materialSupplierMapper.selectByPrimaryKey(materialSupplier.getId());
         if (find != null ) {
-            materialSupplierMapper.updateByPrimaryKeySelective(find);
+            materialSupplierMapper.updateByPrimaryKeySelective(materialSupplier);
         }
     }
 

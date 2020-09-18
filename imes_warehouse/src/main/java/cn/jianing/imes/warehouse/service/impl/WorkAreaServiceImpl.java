@@ -54,7 +54,7 @@ public class WorkAreaServiceImpl implements WorkAreaService {
     public void updateWorkAreaById(WorkArea workArea) {
         WorkArea find = workAreaMapper.selectByPrimaryKey(workArea.getId());
         if (find != null ) {
-            workAreaMapper.updateByPrimaryKeySelective(find);
+            workAreaMapper.updateByPrimaryKeySelective(workArea);
         }
     }
 

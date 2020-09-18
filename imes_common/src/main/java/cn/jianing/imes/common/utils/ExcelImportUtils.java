@@ -48,7 +48,7 @@ public class ExcelImportUtils<T> {
                             if (field.isAnnotationPresent(ExcelAttribute.class)) {
                                 field.setAccessible(true);
                                 ExcelAttribute annotation = field.getAnnotation(ExcelAttribute.class);
-                                if (cellNum == annotation.exportCellNum()) {
+                                if (cellNum == annotation.importCellNum()) {
                                     Class<?> type = field.getType();
                                     field.set(entity, getValue(type, cell));
                                 }

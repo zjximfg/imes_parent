@@ -1,5 +1,6 @@
 package cn.jianing.imes.domain.warehouse;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;
 
 import javax.persistence.Id;
@@ -16,6 +17,7 @@ public class WarehouseEntry {
     private String companyId;
     private String workAreaId;
     private String materialSupplierId;
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     private Date receivingTime;
     private Integer procurementMethod;
     private String receiver;
